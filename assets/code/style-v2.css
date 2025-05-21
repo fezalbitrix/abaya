@@ -1387,7 +1387,7 @@ nav .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 8px;
+    padding: 18px 0;
 }
 
 .wrapper .logo {
@@ -1395,7 +1395,7 @@ nav .wrapper {
 }
 
 .wrapper .logo img {
-    height: 72px;
+    height: 54px;
 }
 
 .wrapper .nav-links {
