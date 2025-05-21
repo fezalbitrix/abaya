@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Abaya | Fashion Accessories</title>
-      <link rel="icon" href="assets/img/favicon.ico">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-      <meta name="theme-color" content="#ffffff">
-      <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-      <link rel="stylesheet" href="assets/code/style-v2.css">
-   </head>
-   <body>
-      <main data-scroll-container>
-         <section data-scroll-section class="header">
-            <nav class="nav-anim" data-scroll data-scroll-class="anim-1">
-               <div class="wrapper">
-                  <div class="logo">
-                     <a href="#">
-                        <picture>
-                           <source media="(max-width: 800px)" srcset="files/img/nav/ukp-sm.svg" />
-                           <img src="assets/img/nav/logo.png" alt="UKP Accessories.  Garment Branding and Packaging" />
-                        </picture>
-                     </a>
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Abaya | Fashion Accessories</title>
+   <link rel="icon" href="assets/img/favicon.ico">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+   <link rel="stylesheet" href="assets/code/style-v2.css">
+   <link rel="stylesheet" href="assets/code/abaya-style.css">
+</head>
+
+<body>
+   <main data-scroll-container>
+      <section data-scroll-section class="header">
+         <nav class="nav-anim" data-scroll data-scroll-class="anim-1">
+            <div class="wrapper">
+               <div class="logo">
+                  <a href="index.html">
+                     <picture>
+                        <source media="(max-width: 800px)" srcset="assets/img/nav/logo.png" />
+                        <img src="assets/img/nav/logo.png" alt="Logo" />
+                     </picture>
+                  </a>
+               </div>
+               <input type="radio" name="slider" id="menu-btn">
+               <input type="radio" name="slider" id="close-btn">
+               <ul class="nav-links">
+                  <li>
+                     <label for="close-btn" class="btn close-btn">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="28px"
+                           height="28px" viewBox="-1.771 -1.771 28 28" enable-background="new -1.771 -1.771 28 28"
+                           xml:space="preserve">
+                           <defs></defs>
+                           <rect x="-3.977" y="11.243"
+                              transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 12.4044 29.9452)" fill="#2a292f"
+                              width="32.762" height="2.322" />
+                           <rect x="-3.976" y="11.244" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.1379 12.4041)"
+                              fill="#2a292f" width="32.761" height="2.321" />
+                        </svg>
+                     </label>
+                  </li>
+                  <li>
+                     <a class="active" href="index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="metal-tag.html">Metal Tag</a>
+                  </li>
+                  <li>
+                     <a href="metal-label.html">Label</a>
+                  </li>
+                  <li>
+                     <a href="blog.html">Blog</a>
+                  </li>
+               </ul>
+               <div class="nav-right-side">
+                  <div class="social-media">
+                     <a target="_blank" href="https://api.whatsapp.com/send/?phone=971504073312&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                     <a target="_blank" href="https://www.instagram.com/abaya_logo/"><i class="fa-brands fa-instagram"></i></a>
+                     <a target="_blank" href="https://www.tiktok.com/@abayalogo"><i class="fa-brands fa-tiktok"></i></a>
+                     <a target="_blank" href="https://www.pinterest.com/abayalogo/"><i class="fa-brands fa-pinterest-p"></i></a>
+                     <a target="_blank" href="https://www.facebook.com/abayalogo"><i class="fa-brands fa-facebook-f"></i></a>
                   </div>
-                  <input type="radio" name="slider" id="menu-btn">
-                  <input type="radio" name="slider" id="close-btn">
-                  <ul class="nav-links">
+                  <ul class="nav-links-2">
                      <li>
-                        <label for="close-btn" class="btn close-btn">
-                           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="28px" height="28px" viewBox="-1.771 -1.771 28 28" enable-background="new -1.771 -1.771 28 28" xml:space="preserve">
-                              <defs></defs>
-                              <rect x="-3.977" y="11.243" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 12.4044 29.9452)" fill="#2a292f" width="32.762" height="2.322" />
-                              <rect x="-3.976" y="11.244" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -5.1379 12.4041)" fill="#2a292f" width="32.761" height="2.321" />
-                           </svg>
-                        </label>
-                     </li>
-                     <li>
-                        <a class="active" href="index.html">Home</a>
-                     </li>
-                     <li>
-                        <a href="metal-tag.html">Metal Tag</a>
-                     </li>
-                     <li>
-                        <a href="metal-label.html">Label</a>
-                     </li>
-                     <li>
-                        <a href="#">Packaging</a>
-                     </li>
-                  </ul>
-                  <ul class="nav-links">
-                     <li class="lg-hide">
                         <a class="pill-menu-btn" href="contact.html">Contact Us</a>
                      </li>
-                  </ul>
+                  </ul>                  
                   <label for="menu-btn" class="btn menu-btn">
-                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="44px" height="24px" viewBox="0 0 44 24" enable-background="new 0 0 44 24" xml:space="preserve">
+                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="44px"
+                        height="24px" viewBox="0 0 44 24" enable-background="new 0 0 44 24" xml:space="preserve">
                         <defs></defs>
                         <rect fill="#292a2f" width="44" height="2.551" />
                         <rect y="10.725" fill="#292a2f" width="44" height="2.551" />
@@ -66,291 +86,516 @@
                      </svg>
                   </label>
                </div>
-            </nav>
-         </section>
-         <section data-scroll-section id="home-hero">
-            <div class="container home-hero-wrap anim" data-scroll data-scroll-class="anim-1">
-               <div class="grid">
-                  <div class="col col-home-heading">
-                     <img class="rh-logo" alt="Rudholm Group" src="assets/img/nav/logo.png">
+            </div>
+         </nav>
+      </section>
+      <section data-scroll-section id="home-hero">
+         <div class="container home-hero-wrap anim" data-scroll data-scroll-class="anim-1">
+            <div class="grid">
+               <div class="col col-home-heading">
+                  <img class="rh-logo" alt="" src="assets/img/nav/logo.png">
+               </div>
+               <div class=" col col-section-heading">
+                  <p>we are specializes in producing all types of garment accessories and packaging items in UAE. Our
+                     main products are label, metal, leather, rubber label, Sticker, box and more</p>
+                  <!-- <a class="inline-link rh-link" href="">Click here for more</a> -->
+               </div>
+            </div>
+         </div>
+      </section>
+      <section data-scroll-section id="fix-hero" class="md-hide">
+         <div class="fixed_wrapper md-hide">
+            <div class="fixed_target" id="fixed-target"></div>
+            <div class="fixed" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+               <img fetchpriority="high" width="1920" height="1080"
+                  src="assets/img/hero/home/creative-garment-labels-trims-packaging-branding.png" alt="">
+               <div></div>
+            </div>
+         </div>
+      </section>
+      <section data-scroll-section class="md-hero md-hero-img md-show">
+         <picture>
+            <source media="(max-width: 800px)" srcset="assets/img/hero/home/creative-garment-labels-trims-packaging-branding.png" />
+            <img fetchpriority="high" width="1019" height="870" class="anim-fade delay-2" data-scroll
+               data-scroll-class="anim-1" src="assets/img/hero/home/creative-garment-labels-trims-packaging-branding.png" alt="">
+         </picture>
+      </section>
+      <section data-scroll-section id="home-products">
+         <div class="container">
+            <div class="grid top-xl">
+               <div class="col col-6 col-left-text col-md-section-center">
+                  <div class="text-subheading">Products</div>
+                  <h2>All Accessories in one <br>place.</h2>
+               </div>
+               <!-- <div class="col col-6-end col-right-text col-eco-icon-text">
+                  <div class="eco-icon-dark"></div>
+                  Sustainable Options Available
+               </div> -->
+            </div>
+            <div class="grid product-home-section" id="lbl-stick">
+               <div class="home-product-group col-md-section-center" data-scroll data-scroll-sticky
+                  data-scroll-target="#lbl-stick" data-scroll-offset="0">
+                  <h3 class="sub">METAL</h3>
+                  <p class="sm lt">Metal in High quality finishing, to match your brand identity</p>
+               </div>
+               <div class="grid home-product-cards">
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/metal-logo.png" alt="Metal logo">
+                        </div>
+                        <div class="slide-title">Metal logo</div>
+                     </a>
                   </div>
-                  <div class=" col col-section-heading">
-                     <p>we are specializes in producing all types of garment accessories and packaging items in UAE. Our main products are label, metal, leather, rubber label, Sticker, box and more</p>
-                     <a class="inline-link rh-link" href="index.html" target="_blank">Click here for more</a>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/button.png" alt="Button">
+                        </div>
+                        <div class="slide-title">Button</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/cufflings.png" alt="Cufflings">
+                        </div>
+                        <div class="slide-title">Cufflink</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/badges.png" alt="Badges">
+                        </div>
+                        <div class="slide-title">Badge</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           <img width="389" height="500" src="assets/img/card/furniture-tags.png" alt="Furniture Tags">
+                        </div>
+                        <div class="slide-title">FURNITURE TAG</div>
+                     </a>
                   </div>
                </div>
             </div>
-         </section>
-         <section data-scroll-section id="fix-hero" class="md-hide">
-            <div class="fixed_wrapper md-hide">
-               <div class="fixed_target" id="fixed-target"></div>
-               <div class="fixed" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-                  <img fetchpriority="high" width="1920" height="1080" src="assets/img/hero/home/creative-garment-labels-trims-packaging-branding.png" alt="Custom garment branding products.">
-                  <div></div>
+            <div class="grid top-md product-home-section" id="mw-stick">
+               <div class="home-product-group col-md-section-center" data-scroll data-scroll-sticky
+                  data-scroll-target="#mw-stick" data-scroll-offset="0">
+                  <h3 class="sub">Label</h3>
+                  <p class="sm lt">Custom and elegant labels in a wide range of colors, designed to elevate your brand
+                  </p>
                </div>
-            </div>
-         </section>
-         <section data-scroll-section class="md-hero md-hero-img md-show">
-            <picture>
-               <source media="(max-width: 800px)" srcset="files/img/hero/home/garment-branding-trims-sm.webp" />
-               <img fetchpriority="high" width="1019" height="870" class="anim-fade delay-2" data-scroll data-scroll-class="anim-1" src="assets/img/hero/home/garment-branding-trims-md.webp" alt="Custom clothing branding items" title="Custom clothing branding.">
-            </picture>
-         </section>
-         <section data-scroll-section id="home-products">
-            <div class="container">
-               <div class="grid top-xl">
-                  <div class="col col-6 col-left-text col-md-section-center">
-                     <div class="text-subheading">Products</div>
-                     <h2>Delivering all-in-one garment branding.</h2>
+               <div class="grid home-product-cards">
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/fabric-label.png" alt="Fabric Label">
+                        </div>
+                        <div class="slide-title">Fabric Label</div>
+                     </a>
                   </div>
-                  <div class="col col-6-end col-right-text col-eco-icon-text">
-                     <div class="eco-icon-dark"></div>
-                     Sustainable Options Available
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/rubber-label.png" alt="Rubber Label">
+                        </div>
+                        <div class="slide-title">Rubber Label</div>
+                     </a>
                   </div>
-               </div>
-               <div class="grid product-home-section" id="lbl-stick" >
-                  <div class="home-product-group col-md-section-center" data-scroll data-scroll-sticky data-scroll-target="#lbl-stick" data-scroll-offset="0">
-                     <h3 class="sub">METAL</h3>
-                     <p class="sm lt">Metal in High quality finishing, to match your brand identity</p>
-                  </div>
-                  <div class="grid home-product-cards">
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/metal-logo.png" alt="Custom made swing tags for clothing and apparel.">
-                           </div>
-                           <div class="slide-title">Metal logo</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/button.png" alt="Custom made woven clothing labels.">
-                           </div>
-                           <div class="slide-title">Button</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/cufflings.png" alt="Custom printed clothing labels.">
-                           </div>
-                           <div class="slide-title">Cufflings</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/badges.png" alt="Leather patches for apparel and denim garments.">
-                           </div>
-                           <div class="slide-title">Badges</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <img width="389" height="500" src="assets/img/card/furniture-tags.png" alt="Rubber clothing labels in PVC, silicone and TPU.">
-                           </div>
-                           <div class="slide-title">Furniture Tags</div>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="grid top-md product-home-section" id="mw-stick">
-                  <div class="home-product-group col-md-section-center" data-scroll data-scroll-sticky data-scroll-target="#mw-stick" data-scroll-offset="0">
-                     <h3 class="sub">Label</h3>
-                     <p class="sm lt">Custom and elegant labels in a wide range of colors, designed to elevate your brand</p>
-                  </div>
-                  <div class="grid home-product-cards">
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/fabric-label.png" alt="Custom jeans buttons for denim garments.">
-                           </div>
-                           <div class="slide-title">Fabric Label</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/rubber-label.png" alt="Bespoke rivets for clothing and accessories.">
-                           </div>
-                           <div class="slide-title">Rubber Label</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/leather-label.png" alt="Branded snap fasteners for clothing and accessories.">
-                           </div>
-                           <div class="slide-title">Leather Label</div>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="grid top-md product-home-section" id="trm-stick">
-                  <div class="home-product-group col-md-section-center" data-scroll data-scroll-sticky data-scroll-target="#trm-stick" data-scroll-offset="0">
-                     <h3 class="sub">Packaging</h3>
-                     <p class="sm lt">Premium packaging designed to make a lasting impression</p>
-                  </div>
-                  <div class="grid home-product-cards">
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/price-tag.png" alt="Custom zipper pulls for clothing and accessories.">
-                           </div>
-                           <div class="slide-title">Price Tag</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/boxes.png" alt="Branded sew-on buttons for clothing.">
-                           </div>
-                           <div class="slide-title">Boxes</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/stickers.png" alt="Custom made tapes, cords and ribbons for apparel.">
-                           </div>
-                           <div class="slide-title">Stickers</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/thanks-card.png" alt="Branded cord ends and toggles for clothing.">
-                           </div>
-                           <div class="slide-title">Thanks Card</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/tissue-paper.png" alt="Branded cord ends and toggles for clothing.">
-                           </div>
-                           <div class="slide-title">Tissue Paper</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/shopping-bag.png" alt="Branded cord ends and toggles for clothing.">
-                           </div>
-                           <div class="slide-title">Shopping Bag</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/suit-covers.png" alt="Branded cord ends and toggles for clothing.">
-                           </div>
-                           <div class="slide-title">Suit Covers</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/hanger.png" alt="Branded cord ends and toggles for clothing.">
-                           </div>
-                           <div class="slide-title">Hanger</div>
-                        </a>
-                     </div>
-                     <div class="col product-home-col">
-                        <a href="metal-tag.html">
-                           <div class="product-home-img">
-                              <div class="eco-icon eco-icon-home"></div>
-                              <img width="389" height="500" src="assets/img/card/ribbon.png" alt="Branded cord ends and toggles for clothing.">
-                           </div>
-                           <div class="slide-title">Ribbon</div>
-                        </a>
-                     </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/leather-label.png" alt="Leather Label">
+                        </div>
+                        <div class="slide-title">Leather Label</div>
+                     </a>
                   </div>
                </div>
             </div>
-         </section>
-         <section data-scroll-section id="call">
-            <div class="container">
-               <div class="grid">
-                  <div class="col call-text">
-                     <h2>Ready to start a branding project with us?</h2>
-                     <p>We're eager to learn more about your branding needs. Let's discuss how we can help strengthen and elevate your brand.</p>
-                     <a class="button button-md-cn btn-org" href="index.html">Contact Us</a>
+            <div class="grid top-md product-home-section" id="trm-stick">
+               <div class="home-product-group col-md-section-center" data-scroll data-scroll-sticky
+                  data-scroll-target="#trm-stick" data-scroll-offset="0">
+                  <h3 class="sub">Packaging</h3>
+                  <p class="sm lt">Premium packaging designed to make a lasting impression</p>
+               </div>
+               <div class="grid home-product-cards">
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/price-tag.png" alt="Price Tag">
+                        </div>
+                        <div class="slide-title">Price Tag</div>
+                     </a>
                   </div>
-                  <div class="col call-img">
-                     <img width="600" height="560" src="assets/img/home/home-cta.png" alt="Custom swing tag design guide">
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/boxes.png" alt="Boxes">
+                        </div>
+                        <div class="slide-title">Box</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/stickers.png" alt="Stickers">
+                        </div>
+                        <div class="slide-title">Sticker</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/thanks-card.png" alt="Thanks Card">
+                        </div>
+                        <div class="slide-title">Thanks Card</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/tissue-paper.png" alt="Tissue Paper">
+                        </div>
+                        <div class="slide-title">Tissue Paper</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/shopping-bag.png" alt="Shopping Bag">
+                        </div>
+                        <div class="slide-title">Shopping Bag</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/suit-covers.png" alt="Suit Covers">
+                        </div>
+                        <div class="slide-title">Suit Covers</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/hanger.png" alt="Hanger">
+                        </div>
+                        <div class="slide-title">Hanger</div>
+                     </a>
+                  </div>
+                  <div class="col product-home-col">
+                     <a href="metal-tag.html">
+                        <div class="product-home-img">
+                           
+                           <img width="389" height="500" src="assets/img/card/ribbon.png" alt="Ribbon">
+                        </div>
+                        <div class="slide-title">Ribbon</div>
+                     </a>
                   </div>
                </div>
             </div>
-         </section>
-         <section data-scroll-section id="footer">
-            <div class="container anim delay-1" data-scroll data-scroll-class="anim-1">
-               <div class="grid">
-                  <div class="col col-12">
-                     <a class="footer-email" href="mailto:enquiries@abayalogo.com">enquiries@abayalogo.com</a>
+         </div>
+      </section>
+      <section data-scroll-section class="about-us" id="home-about">
+         <div class="container">
+            <div class="about-us-content">
+               <div class="col">
+                  <div class="feature-block text-left">
+                     <h2 class="small">About Us</h2>
+                     <p>Since 2011, we’ve been a trusted partner in the UAE for high-quality garment accessories and
+                        custom packaging solutions</p>
+                     <p>Our product range includes woven labels, metal tags, leather patches, rubber labels, stickers,
+                        boxes, and more. All crafted with precision using advanced printing technology and professional
+                        design tools.</p>
+                     <p>With a skilled and experienced team, we are committed to delivering exceptional quality and
+                        service. Trusted by both local and international clients, we take pride in building lasting
+                        relationships through reliability and excellence.</p>
+                     <p>We’d love to help bring your brand to life — let’s create something amazing together!</p>
                   </div>
                </div>
-               <div class="grid grid-foot footer">
-                  <div class="footer-nav-toggle">
-                     <div class="footer-head md-hide"> Pages </div>
-                     <ul>
-                        <li><a href="">Metal Tag</a></li>
-                        <li><a href="">Label</a></li>
-                        <li><a href="">Packaging</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact Us</a></li>
-                     </ul>
+               <div class="col">
+                  <img src="assets/img/about-us.png" alt="" style="width: 100%;">
+               </div>
+            </div>
+
+            <div class="features-services">
+               <div class="features-inner">
+                  <div class="feature-icon">
+                     <i class="fa-solid fa-location-dot"></i>
                   </div>
-                  <div class="footer-nav-toggle md-hide">
-                     <div class="footer-head">Metal</div>
-                     <ul>
-                        <li><a href="">Metal Logo</a></li>
-                        <li><a href="">Buttons</a></li>
-                        <li><a href="">Cufflings</a></li>
-                        <li><a href="">Badges</a></li>
-                        <li><a href="">Furniture Tags</a></li>
-                     </ul>
+                  <h6>Country/City</h6>
+                  <p>UAE, Sharjah</p>
+               </div>
+               <div class="features-inner">
+                  <div class="feature-icon">
+                     <i class="fa-solid fa-building"></i>
                   </div>
-                  <div class="footer-nav-toggle md-hide">
-                     <div class="footer-head">Label</div>
-                     <ul>
-                        <li><a href="">Fabric Label</a></li>
-                        <li><a href="">Rubber Labe</a></li>
-                        <li><a href="">Leather Label</a></li>
-                     </ul>
+                  <h6>Year Established</h6>
+                  <p>2011</p>
+               </div>
+               <div class="features-inner">
+                  <div class="feature-icon">
+                     <i class="fa-solid fa-cube"></i>
                   </div>
-                  <div class="footer-nav-toggle md-hide">
-                     <div class="footer-head">Packaging</div>
-                     <ul>
-                        <li><a href="">Price Tag</a></li>
-                        <li><a href="">Boxes</a></li>
-                        <li><a href="">Stickers</a></li>
-                        <li><a href="">Tissue Paper</a></li>
-                        <li><a href="">Shopping Bag </a></li>
-                        <li><a href="">Suit Covers</a></li>
-                        <li><a href="">Hanger </a></li>
-                        <li><a href="">Ribbons</a></li>
-                     </ul>
+                  <h6>Main Products</h6>
+                  <p>Packaging Items</p>
+               </div>
+               <div class="features-inner">
+                  <div class="feature-icon">
+                     <i class="fa-solid fa-globe"></i>
+                  </div>
+                  <h6>Delivery</h6>
+                  <p>Worldwide</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section data-scroll-section class="google-review">
+         <div class="container">
+            <div class="review-title">
+               <div class="title-tag">Our Google Reviews</div>
+               <h2>Hear From Our Clients</h2>
+            </div>
+
+            <div class="feedback-panel">
+               <div class="commona-google-feedback">
+                  <img src="assets/img/g-google.png" alt="">
+                  <div>
+                     <div class="rating-star">
+                        <span style="margin-right: 12px;">4.8</span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <div class="rating-word">Excellent </div>
+                     <div class="rating-counter">Based on 12 Review </div>
                   </div>
                </div>
-               <!-- <div class="grid grid-foot">
+               <div class="swiper mySwiper google-slider">
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="google-card">
+                           <img src="assets/img/avatar.png" alt="">
+                           <h6>Michael Smith <span>22/03/2025</span></h6>
+                           <div class="rating-star">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p>
+                              Contrary to popular belief, Lorem Ipsum is not simply random text.
+                           </p>
+                           <img src="assets/img/g-google.png" alt="">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="google-card">
+                           <img src="assets/img/avatar.png" alt="">
+                           <h6>Michael Smith <span>22/03/2025</span></h6>
+                           <div class="rating-star">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p>
+                              Contrary to popular belief, Lorem Ipsum is not simply random text.
+                           </p>
+                           <img src="assets/img/g-google.png" alt="">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="google-card">
+                           <img src="assets/img/avatar.png" alt="">
+                           <h6>Michael Smith <span>22/03/2025</span></h6>
+                           <div class="rating-star">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p>
+                              Contrary to popular belief, Lorem Ipsum is not simply random text.
+                           </p>
+                           <img src="assets/img/g-google.png" alt="">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="google-card">
+                           <img src="assets/img/avatar.png" alt="">
+                           <h6>Michael Smith <span>22/03/2025</span></h6>
+                           <div class="rating-star">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p>
+                              Contrary to popular belief, Lorem Ipsum is not simply random text.
+                           </p>
+                           <img src="assets/img/g-google.png" alt="">
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="google-card">
+                           <img src="assets/img/avatar.png" alt="">
+                           <h6>Michael Smith <span>22/03/2025</span></h6>
+                           <div class="rating-star">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </div>
+                           <p>
+                              Contrary to popular belief, Lorem Ipsum is not simply random text.
+                           </p>
+                           <img src="assets/img/g-google.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Navigation Arrows -->
+                  <div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+                  <div class="swiper-button-prev"><i class="fa-solid fa-chevron-right"></i> </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section data-scroll-section class="instagram-gallery">
+         <div class="container">
+            <h2 style="text-align: center;">Instagram Gallery</h2>
+            <div class="instagram-card-grid">
+               <div class="instagram-card">
+                  <div class="instagram-card-inner">
+                     <h6>Shirt Holding Black Leather Belt</h6>
+                     <p><i class="fa-solid fa-eye" style="margin-right: 10px;"></i> 129</p>
+                  </div>
+                  <img src="assets/img/instagram-gallery.png" alt="" style="width: 100%;">
+               </div>
+               <div class="instagram-card">
+                  <div class="instagram-card-inner">
+                     <h6>Shirt Holding Black Leather Belt</h6>
+                     <p><i class="fa-solid fa-eye" style="margin-right: 10px;"></i> 129</p>
+                  </div>
+                  <img src="assets/img/instagram-gallery-2.png" alt="" style="width: 100%;">
+               </div>
+
+               <div class="instagram-card">
+                  <div class="instagram-card-inner">
+                     <h6>Shirt Holding Black Leather Belt</h6>
+                     <p><i class="fa-solid fa-eye" style="margin-right: 10px;"></i> 129</p>
+                  </div>
+                  <img src="assets/img/instagram-gallery-3.png" alt="" style="width: 100%;">
+               </div>
+               <div class="instagram-card">
+                  <div class="instagram-card-inner">
+                     <h6>Shirt Holding Black Leather Belt</h6>
+                     <p><i class="fa-solid fa-eye" style="margin-right: 10px;"></i> 129</p>
+                  </div>
+                  <img src="assets/img/instagram-gallery-4.png" alt="" style="width: 100%;">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section data-scroll-section id="call">
+         <div class="container">
+            <div class="grid">
+               <div class="col call-text">
+                  <h2>Ready to start a branding project with us?</h2>
+                  <p>We're eager to learn more about your branding needs. Let's discuss how we can help strengthen and
+                     elevate your brand.</p>
+                  <a class="button button-md-cn btn-org" href="contact.html">Contact Us</a>
+               </div>
+               <div class="col call-img">
+                  <img width="600" height="560" src="assets/img/home/home-cta.png" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section data-scroll-section id="footer">
+         <div class="container anim delay-1" data-scroll data-scroll-class="anim-1">
+            <div class="grid grid-foot footer mt-0">
+               <div class="footer-nav-toggle">
+                  <div class="footer-head md-hide"> Pages </div>
+                  <ul>
+                     <li><a href="">Metal Tag</a></li>
+                     <li><a href="">Label</a></li>
+                     <li><a href="">Packaging</a></li>
+                     <li><a href="">Blog</a></li>
+                     <li><a href="">Contact Us</a></li>
+                  </ul>
+               </div>
+               <div class="footer-nav-toggle md-hide">
+                  <div class="footer-head">Metal</div>
+                  <ul>
+                     <li><a href="">Metal Logo</a></li>
+                     <li><a href="">Buttons</a></li>
+                     <li><a href="">Cufflings</a></li>
+                     <li><a href="">Badges</a></li>
+                     <li><a href="">Furniture Tags</a></li>
+                  </ul>
+               </div>
+               <div class="footer-nav-toggle md-hide">
+                  <div class="footer-head">Label</div>
+                  <ul>
+                     <li><a href="">Fabric Label</a></li>
+                     <li><a href="">Rubber Labe</a></li>
+                     <li><a href="">Leather Label</a></li>
+                  </ul>
+               </div>
+               <div class="footer-nav-toggle md-hide">
+                  <div class="footer-head">Packaging</div>
+                  <ul>
+                     <li><a href="">Price Tag</a></li>
+                     <li><a href="">Boxes</a></li>
+                     <li><a href="">Stickers</a></li>
+                     <li><a href="">Tissue Paper</a></li>
+                     <li><a href="">Shopping Bag </a></li>
+                     <li><a href="">Suit Covers</a></li>
+                     <li><a href="">Hanger </a></li>
+                     <li><a href="">Ribbons</a></li>
+                  </ul>
+               </div>
+               <div class="footer-nav-toggle md-hide">
+                  <div class="footer-head">Connect with us</div>
+                  <div class="social-media">
+                     <a target="_blank" href="https://api.whatsapp.com/send/?phone=971504073312&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                     <a target="_blank" href="https://www.instagram.com/abaya_logo/"><i class="fa-brands fa-instagram"></i></a>
+                     <a target="_blank" href="https://www.tiktok.com/@abayalogo"><i class="fa-brands fa-tiktok"></i></a>
+                     <a target="_blank" href="https://www.pinterest.com/abayalogo/"><i class="fa-brands fa-pinterest-p"></i></a>
+                     <a target="_blank" href="https://www.facebook.com/abayalogo"><i class="fa-brands fa-facebook-f"></i></a>
+                  </div>
+               </div>
+            </div>
+            <!-- <div class="grid grid-foot">
                   <div class="col col-6 col-lg-5 col-md-6 col-sm-9 col-xs-12">
                      <div class="footer-head md-hide">Sign up to our newsletter</div>
                      <form name="newsform" onsubmit="validateForm(this);" class="signup-form" id="signupform" method="post" >
@@ -393,9 +638,53 @@
                      <span class="cc">© 2024 U.K.P. Accessories Ltd</span>
                   </div>
                </div> -->
-            </div>
-         </section>
-      </main>
-      <script src="assets/code/script.js"></script>
-   </body>
+         </div>
+      </section>
+      <section data-scroll-section class="container">
+         <div class="copyright-bar">
+            <p>Abaya.com reserved all rights</p>
+            <a href="">Privacy & Policies</a>
+         </div>
+      </section>
+   </main>
+   <script src="assets/code/script.js"></script>
+   <script src="assets/code/swiper-bundle.min.js"></script>
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 1.3,
+         slidesPerGroup: 1,
+         speed: 500,
+         grabCursor: false,
+         freeMode: true,
+         loop: true,
+         pagination: {
+            el: ".swiper-pagination",
+            type: "progressbar",
+         },
+         navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+         },
+         breakpoints: {
+            600: {
+               slidesPerView: 2.1,
+               slidesPerGroup: 1,
+            },
+            800: {
+               slidesPerView: 2.7,
+               slidesPerGroup: 1,
+            },
+            1280: {
+               slidesPerView: 3.3,
+               slidesPerGroup: 1,
+            },
+            1600: {
+               slidesPerView: 3.9,
+               slidesPerGroup: 1,
+            },
+         },
+      });
+   </script>
+</body>
+
 </html>
